@@ -16,18 +16,18 @@ function inserirPropriedades() {
 const listaPropriedades = [];
 function exibirListaPropriedades() {
   
-  const propriedadesOrdenadas = listaPropriedades.sort();
-  const listaPropriedadesVazia = listaPropriedades.length;
+  const propriedadesOrdenadas = listaPropriedades.sort()
+  const listaPropriedadesVazia = listaPropriedades.length
 
   if (listaPropriedadesVazia === 0) {
-    console.log('Ops, parece que você não inseriu nada por aqui.');
+    console.log('Ops, parece que você não inseriu nada por aqui. Agradeçemos por utilizar nosso sistema!')
   } else {
-      propriedadesOrdenadas; 
-      console.log('\nAgradeçemos por utilizar nosso sistema. Aqui estão suas propriedades ordenadas:');
+      propriedadesOrdenadas
+      console.log('\nAqui estão suas propriedades ordenadas:')
       listaPropriedades.forEach((propriedade) => {
-        console.log(propriedade);
-      });
+        console.log("- "+propriedade)})
+      console.log('\nAgradeçemos por utilizar nosso sistema!')
     }
-  }
+  };
 
 inserirPropriedades()
