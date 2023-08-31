@@ -86,6 +86,10 @@ Ops, parece que essa entrada é inválida. Por favor, insira uma propriedade CSS
 ```
 
 
+## 🔍Referências:
+-[Documentação do NodeJS](https://nodejs.org/en/docs) 
+-[Documentação do Readline-sync](https://www.npmjs.com/package/readline-sync)
+
 
 ## 🤝🏻Equipe:
 - Laís Müller
